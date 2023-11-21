@@ -17,12 +17,13 @@ body{
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  width: 60%;
+  width: min-content;
   margin: 10%;
   background-color: white;
+  border-radius: 16px;
 }
 img{
-  width: 70%;
+  width: 30dvw;
   border-radius: 13px;
-  margin: 15px;
+  margin: 15px 15px;
 }
