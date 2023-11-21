@@ -9,8 +9,10 @@ body{
   overflow: hidden;
 }
 .attribution {
+  position: absolute;
   font-size: 11px;
   text-align: center;
+  bottom: 0;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -41,4 +43,10 @@ p{
   margin: 8px 10px 25px 10px;
   width: 75%;
   color: #8d9199;
+}
+
+@media screen and (max-width: 480px) {
+  img{
+  width: 80dvw;
+}
 }
