@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
 body{
   display: flex;
   flex-flow: column;
@@ -7,6 +9,7 @@ body{
   text-align: center;
   height: 100dvh;
   overflow: hidden;
+  font-family: 'Outfit', sans-serif;
 }
 .attribution {
   position: absolute;
@@ -45,7 +48,7 @@ p{
   color: #8d9199;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
   img{
   width: 80dvw;
 }
